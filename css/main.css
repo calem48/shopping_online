@@ -1,0 +1,378 @@
+.navbar-brand span:first-child {
+    color: #08526d;
+}
+
+.navbar-brand span:last-child {
+    color: #c72727;
+}
+
+
+
+
+.navbar .dropdown-menu-config a:hover  {
+    
+    background-color: #ffffff;
+    
+}
+
+.navbar.bg-light {
+    background-color: #e3e8ec!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar.des{
+    font-weight: bold;
+}
+
+.navbar .dropdown-menu.drd {
+    border-radius: 0;
+    left: -38px;
+    top: 46px;
+}
+
+.navbar-nav .parent{
+    position: relative;
+}
+.navbar-nav .parent a span {
+
+    width: 15px;
+height: 15px;
+display: inline-block;
+position: absolute;
+top: 19px;
+background-color: #c72727ed;
+border-radius: 33px;
+right: 1px;
+color: #ffffff;
+font-size: 10px;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+/************************/
+
+.upper-bar{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    }
+
+    .upper-bar .nav a {
+        color: black;
+    }
+
+
+
+    /* start slider */
+
+.slider{
+    position: relative;
+    
+}
+
+.slider .carousel-inner {
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.slider .carousel-inner h1{
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    font-size: 60px;
+    max-width: 800px;
+    line-height: 1.4;
+    left: 100px;
+    
+}
+
+.slider .carousel-inner h1 span{
+    display: inline-block;
+    padding: 4px 21px;
+    background: #c72727;
+   
+    
+}
+
+.slider .carousel-inner .overlay{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgb(4 4 4 / 60%);
+
+}
+
+
+.slider .carousel-item{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider .carousel-one {
+   
+    background-image:  url('../image/h1.jpeg') ;
+}
+
+.slider .carousel-two {
+    background-image:  url('../image/h2.jpg') ;
+}
+
+.slider .carousel-three {
+    background-image:  url('../image/h3.jpg') ;
+}
+
+.upper-bar .nav  li:hover{
+    background-color: #e3e8ec
+    
+}
+
+/* end slider */
+
+/* start overview */
+.overview{
+    background: #ecf1f3;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+
+.overview h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.overview p{
+
+    width: 80%;
+    line-height: 2;
+    font-size: 18px;
+    margin: 0px auto 20px;
+    color: #7a7980;
+   
+}
+
+.overview h4{
+
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    color: #383a36;
+   
+}
+
+.overview button{
+    background: #c72727;
+    padding: 10px 30px;
+    border: 1px solid #c72727;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+/* end overview */
+
+
+
+/*footer*/
+.footer{
+    padding-top: 50px;
+    padding: 50px;
+    background: #e3e8ec;
+}
+.footer .site-info span{
+   
+    line-height: 3;
+    float: left;
+    padding-right: 20px;
+
+}
+.footer .site-info p:last-child{
+   
+    
+float: left;
+padding-left: 54px;
+
+}
+
+.footer .contact ul li{
+    line-height: 2;
+}
+
+
+.footer .site-info ul li{
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.footer .site-info .footer-social{
+    color: black;
+    padding-left: 50px;
+}
+.footer .site-info .footer-social li a {
+   color: #000;
+}
+.footer .contact ul li a {
+    color: black;
+    text-decoration: none;
+}
+.footer .contact h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* aside
+
+padding-right: 15px;
+    padding-left: 15px;
+
+*/
+
+.aside {
+    padding: 30px 0 ;
+}
+
+.aside .asid-4 {
+    
+}
+
+.aside .asid-9-con .conf {
+ 
+    padding-bottom: 20px;
+}
+
+
+.aside .asid-4 ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* start page login       */
+
+.connexion .des {
+
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+
+}
+
+
+.connexion .form-control.des{
+   /* border: none;
+    border-bottom: 1px solid red;
+    border-radius: 0;*/
+}
+
+
+.connexion .modal-footer.mfcon{
+    justify-content: center;
+}
+/* end page login       */
+
+
+/* cart de produit*/
+.cart-conf {
+    margin: 100px 0;
+}
+
+.cart-conf .thead-color{
+    background-color: #e3e8ec;
+}
+.cart-conf .table-info{
+    font-weight: bold;
+}
+.cart-conf .cart-vide{
+    text-align: center;
+    background-color: #c72727;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 100px 0;
+}
+
+.cart-conf form input{
+    /*padding: 5px 40px;*/
+}
+
+
+/* end cart de produit*/
+
+/* start  login*/
+
+.login-conf{
+    padding: 100px 0;
+}
+
+.login-conf .header-conf{
+    padding: 1.75rem 1.25rem;
+    text-align: center;
+}
+.login-conf input{
+    padding: 1.75rem 1.25rem;
+}
+.login-conf .submit-conf{
+    text-align: center;
+}
+
+.login-conf .submit-conf button{
+    padding: 9px 40px;
+}
+
+/* start  login*/
+
+
+
+
+/* page order */
+
+.order-config{
+    padding: 100px 0;
+}
+
+
+/*page admin */
+.admin-container{
+    padding-top: 30px;
+}
+
+
+.navbar .drop-menu {
+    left: -41px;
+    border-radius: 0;
+    top: 46px;
+    border-right: 0px;
+}
+
+
+    @media (min-width: 576px){
+
+    .modal .mdal_config{
+    max-width: 700px;
+    margin: 1.75rem auto;
+    }
+}
+
+/* training css */
+
